@@ -89,7 +89,7 @@
                 <div class="navbar-nav m-auto py-0">
                     <a href="{% url 'about' %}" class="nav-item nav-link">About Us</a>
                     <a href="{% url 'service' %}" class="nav-item nav-link">Services</a>
-                    <a href="" class="nav-item nav-link">Blog</a>
+                    {% comment %} <a href="" class="nav-item nav-link">Blog</a> {% endcomment %}
                  
                     <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
                 </div>
@@ -299,7 +299,7 @@
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="{% static 'assets/img/opening.jpg' %}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="{% static 'assets/img/open.webp' %}" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
