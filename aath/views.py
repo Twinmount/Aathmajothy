@@ -12,7 +12,7 @@ def about(request):
     msg=request.GET.get("msg",'')
     return render(request,"about.html",{"msg":msg})
 
-def service(request):
+def services(request):
     msg=request.GET.get("msg",'')
     return render(request,"service.html",{"msg":msg})
 
