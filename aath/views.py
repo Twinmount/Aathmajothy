@@ -12,7 +12,7 @@ def about(request):
     msg=request.GET.get("msg",'')
     return render(request,"about.html",{"msg":msg})
 
-def service(request):
+def service_psychiatric_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"service.html",{"msg":msg})
 
@@ -20,35 +20,35 @@ def contact(request):
     msg=request.GET.get("msg",'')
     return render(request,"contact.html",{"msg":msg})
 
-def familythera(request):
+def family_therappy_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"familytherapy.html",{"msg":msg})
 
-def childguide(request):
+def child_guidance_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"childguidence.html",{"msg":msg})
 
-def anxiety(request):
+def anxiety_depression_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"anxietydisorder.html",{"msg":msg})
 
-def phobia(request):
+def phobia_treatment_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"phobiasdepression.html",{"msg":msg})
 
-def depression(request):
+def depression_treatment_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"depression.html",{"msg":msg})
 
-def couple(request):
+def couple_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"couple.html",{"msg":msg})
 
-def marriage(request):
+def marriage_therappy_post_marriage_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"marriage.html",{"msg":msg})
 
-def individual(request):
+def individual_personal_face_to_face_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"individual.html",{"msg":msg})
 
