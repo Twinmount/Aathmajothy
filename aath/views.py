@@ -12,7 +12,7 @@ def about(request):
     msg=request.GET.get("msg",'')
     return render(request,"about.html",{"msg":msg})
 
-def service_psychiatric_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
+def psychiatric_counseling_services_offered_by_aathmajyothi_for_bangalore_and_mysore(request):
     msg=request.GET.get("msg",'')
     return render(request,"service.html",{"msg":msg})
 
