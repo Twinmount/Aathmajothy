@@ -102,6 +102,7 @@
                  
                     <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
                 </div>
+                <div id="whatsapp-link"></div>
                 <script>
                     var phoneNumber = '91 8589025753';
                     var message = 'Hello Aathmajyothi, I would like to connect with you.';
@@ -112,12 +113,11 @@
                     link.href = whatsappUrl;
                     link.target = '_blank';
                     link.rel = 'noopener noreferrer';
-                    link.innerHTML = '<i class="icon whatsapp">WhatsApp</i>';
+                    link.innerHTML = '<a class="btn btn-primary d-none d-lg-block">WhatsApp Booking</a>';
                 
                     document.getElementById('whatsapp-link').appendChild(link);
                   </script>
                 
-                <a href="https://uasutvmi.forms.app/untitled-form" class="btn btn-primary d-none d-lg-block">Get Appointment </a>
             </div>
         </nav>
     </div>
