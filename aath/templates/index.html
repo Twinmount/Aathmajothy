@@ -102,6 +102,21 @@
                  
                     <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
                 </div>
+                <script>
+                    var phoneNumber = '91 8589025753';
+                    var message = 'Hello Aathmajyothi, I would like to connect with you.';
+                    var encodedMessage = encodeURIComponent(message);
+                    var whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=' + encodedMessage;
+                
+                    var link = document.createElement('a');
+                    link.href = whatsappUrl;
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.innerHTML = '<i class="icon whatsapp">WhatsApp</i>';
+                
+                    document.getElementById('whatsapp-link').appendChild(link);
+                  </script>
+                
                 <a href="https://uasutvmi.forms.app/untitled-form" class="btn btn-primary d-none d-lg-block">Get Appointment </a>
             </div>
         </nav>
