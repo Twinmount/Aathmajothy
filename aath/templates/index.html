@@ -201,7 +201,21 @@
                     <div class="row pt-3">
                         <div class="col-6">
                             <div class="bg-light text-center p-4">
-                                <a href="https://uasutvmi.forms.app/untitled-form" class="btn btn-primary mt-2"> WhatsApp Booking</a>
+                                <div id="whatsapp1"></div>
+                                <script>
+                                    var phoneNumber = '918095580965';
+                                    var message = 'Hello Aathmajyothi, I would like to connect with you.';
+                                    var encodedMessage = encodeURIComponent(message);
+                                    var whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=' + encodedMessage;
+                                
+                                    var link = document.createElement('a');
+                                    link.href = whatsappUrl;
+                                    link.target = '_blank';
+                                    link.rel = 'noopener noreferrer';
+                                    link.innerHTML = '<a class="btn btn-primary mt-2">WhatsApp Booking</a>';
+                                
+                                    document.getElementById('whatsapp1').appendChild(link);
+                                  </script>
                             </div>
                         </div>
                         <div class="col-6">
